@@ -1,13 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App.tsx";
 import { db } from "./db.ts";
 import { SEED_STRAINS } from "./strainDatabase.ts";
 
-// GitHub Pages subfolder: /growmanager/
-const basename = "/growmanager";
+// GitHub Pages: HashRouter verwenden, da statisches Hosting kein SPA-Routing bietet
 
 // Neue Feature-Imports
 import DeficitCalculatorPage from "./pages/DeficitCalculatorPage";
@@ -47,7 +46,7 @@ async function seedStrains() {
 seedStrains().then(() => {
   createRoot(document.getElementById("root")!).render(
     <StrictMode>
-      <BrowserRouter basename={basename}>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/tools/deficit-calculator" element={<DeficitCalculatorPage />} />
@@ -74,7 +73,7 @@ seedStrains().then(() => {
           <Route path="/community/grow-diary-sharing" element={<GrowDiarySharingPage />} />
           <Route path="/community/strain-reviews" element={<StrainReviewsPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </StrictMode>,
   );
 });
