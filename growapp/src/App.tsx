@@ -358,6 +358,7 @@ export default function App() {
   return (
     <div className="app-shell">
       <TopBar />
+      <div className="app-content">
       <Routes>
         <Route path="/" element={<DashboardPage />} />
         <Route path="/tents" element={<TentsPage />} />
@@ -412,6 +413,7 @@ export default function App() {
         <Route path="/grow-diary-sharing" element={<GrowDiarySharingPage />} />
         <Route path="/strain-reviews" element={<StrainReviewsPage />} />
       </Routes>
+      </div>
       <BottomNav />
     </div>
   );

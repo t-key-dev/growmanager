@@ -90,6 +90,14 @@ a {
   z-index: 5;
 }
 
+.app-content {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+}
+
 .app-header h1 {
   font-size: 1.3rem;
   margin: 0;
@@ -102,7 +110,6 @@ a {
   flex: 1;
   padding: 8px 16px 16px;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 /* ─── Bottom Nav ──────────────────────────────────────────────────────────── */
