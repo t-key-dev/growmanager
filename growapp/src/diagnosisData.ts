@@ -31,7 +31,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Phosphor(P)-Mangel oder Kälte (<15°C)",
     advice: "Temperatur prüfen, bei Bedarf P-Dünger (z.B. PK 13-14) anpassen.",
     category: "mangel",
-    image: "diagnosis/p-deficiency.svg",
+    image: "diagnosis/p-deficiency.jpg",
   },
   {
     id: "k-deficiency",
@@ -39,7 +39,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Kalium(K)-Mangel oder Hitzeschaden",
     advice: "Abstand zur Lampe prüfen, K-Dünger nach Wochenplan anpassen.",
     category: "mangel",
-    image: "diagnosis/k-deficiency.svg",
+    image: "diagnosis/k-deficiency.jpg",
   },
   {
     id: "mg-deficiency",
@@ -55,7 +55,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Calcium(Ca)-Mangel, oft bei zu schnellem Wachstum",
     advice: "Calmag-Dünger zugeben, Luftfeuchtigkeit kontrollieren (Ca-Aufnahme braucht stabile RH).",
     category: "mangel",
-    image: "diagnosis/ca-deficiency.svg",
+    image: "diagnosis/ca-deficiency.jpg",
   },
   {
     id: "s-deficiency",
@@ -63,7 +63,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Schwefel(S)-Mangel (selten, ähnlich N-Mangel)",
     advice: "Volldünger mit S-Anteil verwenden, pH prüfen (S wird bei hohem pH schlecht aufgenommen).",
     category: "mangel",
-    image: "diagnosis/s-deficiency.svg",
+    image: "diagnosis/s-deficiency.jpg",
   },
   {
     id: "fe-deficiency",
@@ -79,7 +79,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Zink(Zn)-Mangel oder pH zu hoch",
     advice: "pH Richtung 6,0 bringen, ggf. Zn-haltigen Mikronährstoff-Mix verwenden.",
     category: "mangel",
-    image: "diagnosis/zn-deficiency.svg",
+    image: "diagnosis/zn-deficiency.jpg",
   },
   {
     id: "mn-deficiency",
@@ -87,7 +87,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Mangan(Mn)-Mangel, ähnlich Fe-Mangel",
     advice: "pH prüfen, Mikronährstoff-Dünger beimischen.",
     category: "mangel",
-    image: "diagnosis/mn-deficiency.svg",
+    image: "diagnosis/mn-deficiency.jpg",
   },
   {
     id: "b-deficiency",
@@ -95,7 +95,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Bor(B)-Mangel (selten)",
     advice: "Bor-haltigen Dünger in sehr kleiner Dosis zugeben (B-Überdüngung ist kritisch!).",
     category: "mangel",
-    image: "diagnosis/b-deficiency.svg",
+    image: "diagnosis/b-deficiency.jpg",
   },
   {
     id: "cu-deficiency",
@@ -103,7 +103,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Kupfer(Cu)-Mangel (sehr selten)",
     advice: "pH prüfen, Mikronährstoff-Mix verwenden.",
     category: "mangel",
-    image: "diagnosis/cu-deficiency.svg",
+    image: "diagnosis/cu-deficiency.jpg",
   },
   {
     id: "light-burn",
@@ -111,7 +111,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Lichtverbrennung (zu nah oder zu stark)",
     advice: "Abstand zur Lampe vergrößern, ggf. Dimmen, PPFD mit Messgerät kontrollieren.",
     category: "mangel",
-    image: "diagnosis/light-burn.svg",
+    image: "diagnosis/light-burn.jpg",
   },
   {
     id: "overwatering",
@@ -119,7 +119,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Überwässerung → Wurzeln ersticken",
     advice: "Gießabstand verlängern, Erde abtrocknen lassen, Drainage prüfen.",
     category: "mangel",
-    image: "diagnosis/overwatering.svg",
+    image: "diagnosis/overwatering.jpg",
   },
   {
     id: "underwatering",
@@ -127,7 +127,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Unterwässerung / ausgetrockneter Wurzelballen",
     advice: "Langsam wieder anfeuchten, evtl. Topf 10 Min in Wasser stellen.",
     category: "mangel",
-    image: "diagnosis/underwatering.svg",
+    image: "diagnosis/underwatering.jpg",
   },
 
   // ─── Krankheiten & Pilze ─────────────────────────────────────────────────
@@ -161,7 +161,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Umfallkrankheit (Pythium / Rhizoctonia)",
     advice: "Substrat sterilisieren, weniger gießen, Lüftung erhöhen, Zimt als Hausmittel aufstreuen.",
     category: "krankheit",
-    image: "diagnosis/damping-off.svg",
+    image: "diagnosis/damping-off.jpg",
   },
   {
     id: "fusarium",
@@ -169,7 +169,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Fusarium-Welke",
     advice: "Befallene Pflanzen entsorgen, Werkzeuge desinfizieren, Substrat wechseln.",
     category: "krankheit",
-    image: "diagnosis/fusarium.svg",
+    image: "diagnosis/fusarium.jpg",
   },
   {
     id: "septoria",
@@ -177,7 +177,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Septoria-Blattfleckenkrankheit",
     advice: "Befallene Blätter entfernen, Luftfeuchte senken, Neem-Öl sprühen.",
     category: "krankheit",
-    image: "diagnosis/septoria.svg",
+    image: "diagnosis/septoria.jpg",
   },
   {
     id: "rust",
@@ -185,7 +185,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Rostpilz",
     advice: "Befallene Blätter entfernen, Pflanze isolieren, Fungizid auf Schwefelbasis einsetzen.",
     category: "krankheit",
-    image: "diagnosis/rust.svg",
+    image: "diagnosis/rust.jpg",
   },
   {
     id: "bud-rot",
@@ -193,7 +193,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Bud Rot (Grauschimmel im Bud)",
     advice: "Befallene Buds großzügig abschneiden, RH unter 50% halten, Luftzirkulation verbessern.",
     category: "krankheit",
-    image: "diagnosis/bud-rot.svg",
+    image: "diagnosis/bud-rot.jpg",
   },
 
   // ─── Schädlinge ──────────────────────────────────────────────────────────
@@ -219,7 +219,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Thripse",
     advice: "Blau-staue Leimtafeln, Neem-Öl oder Raubmilben (A. cucumeris). Befallene Blätter entfernen.",
     category: "schaedling",
-    image: "diagnosis/thrips.svg",
+    image: "diagnosis/thrips.jpg",
   },
   {
     id: "aphids",
@@ -227,7 +227,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Blattläuse",
     advice: "Mit Wasser abspülen, Neem-Öl sprühen, Marienkäfer/Larven als Nützlinge einsetzen.",
     category: "schaedling",
-    image: "diagnosis/aphids.svg",
+    image: "diagnosis/aphids.jpg",
   },
   {
     id: "whiteflies",
@@ -235,7 +235,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Weiße Fliege",
     advice: "Gelbsticker aufhängen, Neem-Öl sprühen, Schlupfwespen (Encarsia formosa) einsetzen.",
     category: "schaedling",
-    image: "diagnosis/whiteflies.svg",
+    image: "diagnosis/whiteflies.jpg",
   },
   {
     id: "mealybugs",
@@ -243,7 +243,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Wollläuse",
     advice: "Mit Q-Tip in Alkohol (70%) betupfen, Neem-Öl sprühen, Pflanze isolieren.",
     category: "schaedling",
-    image: "diagnosis/mealybugs.svg",
+    image: "diagnosis/mealybugs.jpg",
   },
   {
     id: "scale",
@@ -251,7 +251,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Schildläuse",
     advice: "Mit Alkohol/Q-Tip mechanisch entfernen, Neem-Öl sprühen.",
     category: "schaedling",
-    image: "diagnosis/scale.svg",
+    image: "diagnosis/scale.jpg",
   },
   {
     id: "caterpillars",
@@ -259,7 +259,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Raupen (z.B. Eulenfalter-Larven)",
     advice: "Bt (Bacillus thuringiensis) sprühen, Pflanzen abends kontrollieren und Raupen absammeln.",
     category: "schaedling",
-    image: "diagnosis/caterpillars.svg",
+    image: "diagnosis/caterpillars.jpg",
   },
   {
     id: "leaf-miners",
@@ -267,7 +267,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Minierfliegen",
     advice: "Befallene Blätter entfernen, Gelbtafeln, Neem-Öl.",
     category: "schaedling",
-    image: "diagnosis/leaf-miners.svg",
+    image: "diagnosis/leaf-miners.jpg",
   },
   {
     id: "springtails",
@@ -275,7 +275,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Springschwänze (meist harmlos, Zeichen für zu nasse Erde)",
     advice: "Erde abtrocknen lassen, ggf. Deckschicht aus Sand/Hydrokugeln, an sich kein Schaden.",
     category: "schaedling",
-    image: "diagnosis/springtails.svg",
+    image: "diagnosis/springtails.jpg",
   },
 
   // ─── Sonstiges (Umwelt, Stress) ───────────────────────────────────────────
@@ -285,7 +285,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Hitzestress (>30°C Blatt-Temp.)",
     advice: "Abluft/Umluft erhöhen, ggf. Klimaanlage, Abstand zur Lampe vergrößern.",
     category: "sonstiges",
-    image: "diagnosis/heat-stress.svg",
+    image: "diagnosis/heat-stress.jpg",
   },
   {
     id: "cold-stress",
@@ -293,7 +293,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Kältestress (<15°C Wurzel-Temp.)",
     advice: "Heizmatte, Wurzelzone warm halten, evtl. auf Outdoor-Standort prüfen.",
     category: "sonstiges",
-    image: "diagnosis/cold-stress.svg",
+    image: "diagnosis/cold-stress.jpg",
   },
   {
     id: "low-humidity",
@@ -301,7 +301,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Zu niedrige Luftfeuchtigkeit (<35%)",
     advice: "Luftbefeuchter einsetzen, Schalen mit Wasser aufstellen.",
     category: "sonstiges",
-    image: "diagnosis/low-humidity.svg",
+    image: "diagnosis/low-humidity.jpg",
   },
   {
     id: "high-humidity",
@@ -309,7 +309,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Zu hohe Luftfeuchtigkeit (>70% in der Blüte)",
     advice: "Lüftung/Umluft erhöhen, Entfeuchter, Wasserquellen reduzieren.",
     category: "sonstiges",
-    image: "diagnosis/high-humidity.svg",
+    image: "diagnosis/high-humidity.jpg",
   },
   {
     id: "ph-drift",
@@ -317,7 +317,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "pH-Wert nicht im Zielbereich (5,8–6,5)",
     advice: "pH jeder Gieß- und Düngerlösung messen und auf 6,0–6,2 einstellen.",
     category: "sonstiges",
-    image: "diagnosis/ph-drift.svg",
+    image: "diagnosis/ph-drift.jpg",
   },
   {
     id: "rootbound",
@@ -325,7 +325,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Topf zu klein (rootbound)",
     advice: "Umtopfen in größeren Topf (Faustregel: max. 1/3 größeres Volumen pro Schritt).",
     category: "sonstiges",
-    image: "diagnosis/rootbound.svg",
+    image: "diagnosis/rootbound.jpg",
   },
   {
     id: "light-stress",
@@ -333,7 +333,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Zu viel Licht (PPFD über Limit der Sorte)",
     advice: "Lampe höher hängen oder dimmen, an Genetik anpassen (Sativa verträgt mehr als Indica).",
     category: "sonstiges",
-    image: "diagnosis/light-stress.svg",
+    image: "diagnosis/light-stress.jpg",
   },
   {
     id: "leggy-seedling",
@@ -341,7 +341,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Zu wenig Licht oder zu viel Wärme in Keimphase",
     advice: "Lampe näher und weniger hell (z.B. 18/6) oder kühler stellen, ggf. tiefer einsetzen.",
     category: "sonstiges",
-    image: "diagnosis/leggy-seedling.svg",
+    image: "diagnosis/leggy-seedling.jpg",
   },
   {
     id: "hermaphrodite",
@@ -349,7 +349,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Stress-Hermaphroditismus (Licht, Hitze, Beschädigung)",
     advice: "Stress reduzieren, einzelne Pollen-Säcke mit Pinzette entfernen, ggf. Pflanze opfern (Samen unerwünscht).",
     category: "sonstiges",
-    image: "diagnosis/hermaphrodite.svg",
+    image: "diagnosis/hermaphrodite.jpg",
   },
   {
     id: "nutrient-lockout",
@@ -357,7 +357,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Nährstoff-Lockout (falscher pH oder Salz-Aufbau)",
     advice: "pH prüfen, mit 3-fachem Topfvolumen pH-korrigiertem Wasser durchspülen (Flushing).",
     category: "sonstiges",
-    image: "diagnosis/nutrient-lockout.svg",
+    image: "diagnosis/nutrient-lockout.jpg",
   },
 ];
 
