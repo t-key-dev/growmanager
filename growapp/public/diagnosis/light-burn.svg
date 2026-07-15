@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="320" height="240">
+  <rect width="320" height="240" fill="#1c2023"/>
+  
+      <rect x="60" y="60" width="200" height="100" rx="12" fill="#262b2e" stroke="#3a4a3d"/>
+      <line x1="100" y1="70" x2="120" y2="80" stroke="#f0c850" stroke-width="3"/>
+      <line x1="130" y1="70" x2="150" y2="80" stroke="#f0c850" stroke-width="3"/>
+      <line x1="160" y1="70" x2="180" y2="80" stroke="#f0c850" stroke-width="3"/>
+      <line x1="190" y1="70" x2="210" y2="80" stroke="#f0c850" stroke-width="3"/>
+      <line x1="110" y1="85" x2="130" y2="95" stroke="#f0c850" stroke-width="3"/>
+      <line x1="140" y1="85" x2="160" y2="95" stroke="#f0c850" stroke-width="3"/>
+      <line x1="170" y1="85" x2="190" y2="95" stroke="#f0c850" stroke-width="3"/>
+      <line x1="200" y1="85" x2="220" y2="95" stroke="#f0c850" stroke-width="3"/>
+      
+  <g transform="translate(160 115) scale(0.7)">
+    <path d="M 0 -40 Q -25 -35 -35 -10 Q -28 -25 -10 -28 Q -20 -15 -22 0 Q -30 -10 -38 5 Q -28 -5 -16 -2 Q -28 8 -28 22 Q -16 12 -8 8 Q -10 22 -2 30 Q 0 18 0 5 Q 0 18 2 30 Q 10 22 8 8 Q 16 12 28 22 Q 28 8 16 -2 Q 28 -5 38 5 Q 30 -10 22 0 Q 20 -15 10 -28 Q 28 -25 35 -10 Q 25 -35 0 -40 Z"
+      fill="#c8a040" stroke="#1f3d27" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="0" y1="30" x2="0" y2="42" stroke="#1f3d27" stroke-width="2"/>
+  </g>
+
+      <text x="160" y="175" text-anchor="middle" fill="#a0a8a2" font-size="14" font-family="sans-serif">obere Blätter ausgebleicht</text>
+    
+  <text x="160" y="232" text-anchor="middle" fill="#7a8a82" font-size="11" font-family="sans-serif" font-style="italic">GrowManager Diagnose</text>
+</svg>

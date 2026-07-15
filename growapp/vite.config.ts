@@ -9,7 +9,8 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg'],
+      injectRegister: 'auto',
+      includeAssets: ['favicon.svg', 'icon-192.png', 'icon-512.png', 'maskable-icon-512.png', 'apple-touch-icon.png', 'diagnosis/**/*'],
       manifest: {
         name: 'GrowManager',
         short_name: 'GrowManager',
