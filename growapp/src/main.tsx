@@ -6,6 +6,9 @@ import App from "./App.tsx";
 import { db } from "./db.ts";
 import { SEED_STRAINS } from "./strainDatabase.ts";
 
+// GitHub Pages subfolder: /growmanager/
+const basename = "/growmanager";
+
 // Neue Feature-Imports
 import DeficitCalculatorPage from "./pages/DeficitCalculatorPage";
 import MixingRatioCalculatorPage from "./pages/MixingRatioCalculatorPage";
@@ -44,7 +47,7 @@ async function seedStrains() {
 seedStrains().then(() => {
   createRoot(document.getElementById("root")!).render(
     <StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/tools/deficit-calculator" element={<DeficitCalculatorPage />} />
