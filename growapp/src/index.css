@@ -1272,6 +1272,45 @@ input[type="range"]::-webkit-slider-thumb {
   color: var(--danger);
 }
 
+/* ─── Fertilizer Database ─────────────────────────────────────────────────── */
+
+.fertilizer-usecase {
+  margin-top: 8px;
+  padding: 8px;
+  background: var(--accent-soft);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.fertilizer-usecase strong {
+  color: var(--accent-2);
+}
+
+.fertilizer-problems {
+  margin-top: 8px;
+  padding: 8px;
+  background: var(--surface-2);
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.fertilizer-problems strong {
+  color: var(--warn);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.fertilizer-problems ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.fertilizer-problems li {
+  margin: 4px 0;
+  color: var(--text-dim);
+}
+
 /* ─── Responsive ──────────────────────────────────────────────────────────── */
 
 @media (max-width: 480px) {
