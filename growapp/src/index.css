@@ -84,10 +84,8 @@ a {
 
 .app-header {
   padding: 8px 16px 8px;
-  position: sticky;
-  top: 44px;
   background: var(--bg);
-  z-index: 5;
+  flex-shrink: 0;
 }
 
 .app-content {

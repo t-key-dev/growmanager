@@ -14,7 +14,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Überdüngung",
     advice: "EC senken, ggf. mit klarem Wasser (pH 6,0–6,5) durchspülen.",
     category: "mangel",
-    image: "/diagnosis/eagle-claws.jpg",
+    image: "diagnosis/eagle-claws.jpg",
   },
   {
     id: "n-deficiency",
@@ -22,7 +22,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Stickstoff(N)-Mangel oder pH zu hoch",
     advice: "Erst pH prüfen (Ziel 6,0–6,5), dann ggf. N-Dünger leicht erhöhen.",
     category: "mangel",
-    image: "/diagnosis/n-deficiency.jpg",
+    image: "diagnosis/n-deficiency.jpg",
   },
   {
     id: "p-deficiency",
@@ -30,7 +30,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Phosphor(P)-Mangel oder Kälte (<15°C)",
     advice: "Temperatur prüfen, bei Bedarf P-Dünger (z.B. PK 13-14) anpassen.",
     category: "mangel",
-    image: "/diagnosis/p-deficiency.jpg",
+    image: "diagnosis/p-deficiency.jpg",
   },
   {
     id: "k-deficiency",
@@ -38,7 +38,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Kalium(K)-Mangel oder Hitzeschaden",
     advice: "Abstand zur Lampe prüfen, K-Dünger nach Wochenplan anpassen.",
     category: "mangel",
-    image: "/diagnosis/k-deficiency.jpg",
+    image: "diagnosis/k-deficiency.jpg",
   },
   {
     id: "mg-deficiency",
@@ -46,7 +46,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Magnesium(Mg)-Mangel",
     advice: "Bittersalz-Spray (Epsom-Salz, ca. 1 TL/L) oder Calmag ins Gießwasser.",
     category: "mangel",
-    image: "/diagnosis/mg-deficiency.jpg",
+    image: "diagnosis/mg-deficiency.jpg",
   },
   {
     id: "fe-deficiency",
@@ -54,7 +54,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Eisen(Fe)-Mangel, meist durch zu hohen pH ausgelöst",
     advice: "pH-Wert senken (Richtung 6,0), Eisen wird bei zu hohem pH nicht aufgenommen.",
     category: "mangel",
-    image: "/diagnosis/fe-deficiency.jpg",
+    image: "diagnosis/fe-deficiency.jpg",
   },
   {
     id: "root-rot",
@@ -62,7 +62,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Wurzelfäule (z.B. Pythium)",
     advice: "Zwischen den Gießgängen abtrocknen lassen, Perlite beimischen, ggf. H2O2 3% (10ml/L) ins Gießwasser.",
     category: "krankheit",
-    image: "/diagnosis/root-rot.jpg",
+    image: "diagnosis/root-rot.jpg",
   },
   {
     id: "botrytis",
@@ -70,7 +70,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Botrytis (Grauschimmel)",
     advice: "Befallene Stellen sofort mit Handschuhen entfernen und entsorgen, Luftfeuchtigkeit in der Spätblüte auf 40–50% senken, Luftzirkulation verbessern.",
     category: "krankheit",
-    image: "/diagnosis/botrytis.jpg",
+    image: "diagnosis/botrytis.jpg",
   },
   {
     id: "powdery-mildew",
@@ -78,7 +78,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Echter Mehltau",
     advice: "Backpulver-Spray (5g + 1ml Spülmittel/L) oder Milch-Spray (30% Milch/70% Wasser), Luftzirkulation erhöhen.",
     category: "krankheit",
-    image: "/diagnosis/powdery-mildew.jpg",
+    image: "diagnosis/powdery-mildew.jpg",
   },
   {
     id: "spider-mites",
@@ -86,7 +86,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Spinnmilben",
     advice: "Luftfeuchtigkeit über 50% halten, Neem-Öl (3ml + 1ml Spülmittel/L) alle 3 Tage, alternativ Raubmilben einsetzen.",
     category: "schaedling",
-    image: "/diagnosis/spider-mites.jpg",
+    image: "diagnosis/spider-mites.jpg",
   },
   {
     id: "fungus-gnats",
@@ -94,7 +94,7 @@ export const DIAGNOSIS_ENTRIES: DiagnosisEntry[] = [
     cause: "Trauermücken",
     advice: "Erdoberfläche zwischen den Gießgängen abtrocknen lassen, Nematoden (Steinernema feltiae) ins Gießwasser geben.",
     category: "schaedling",
-    image: "/diagnosis/fungus-gnats.jpg",
+    image: "diagnosis/fungus-gnats.jpg",
   },
 ];
 
